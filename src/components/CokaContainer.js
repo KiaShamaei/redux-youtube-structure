@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from "react-redux"
-import buyCoka from './redux/coka/ActionCoka';
+import {buyCoka} from './redux/coka/ActionCoka';
 
 
 const CokaContainer = (props) => {
