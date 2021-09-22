@@ -10,6 +10,7 @@ import NewCakeContainer from './components/NewCakeContainer';
 
 import ItemContainer from './components/ItemContainer';
 import UserContainer from './components/UserContainer';
+import { PostsContainer } from './components/PostsContainer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 		<NewCakeContainer />
 		<IceCreamContainer/> */}
 		<UserContainer />
+		<PostsContainer />
 		</Provider>
 
     </div>

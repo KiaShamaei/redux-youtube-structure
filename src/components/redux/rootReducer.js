@@ -4,6 +4,7 @@ import iceReducer from './iceCream/iceReducer';
 import cokaReducer from './coka/cokaReducer';
 
 import usersReducer from './users/usersReducer';
+import { postReducer } from './posts/postsReducer';
 
 
 
@@ -11,7 +12,8 @@ import usersReducer from './users/usersReducer';
 	cake : cakeReducer ,
 	ice  : iceReducer , 
 	coka : cokaReducer ,
-	users : usersReducer
+	users : usersReducer,
+	posts : postReducer
 })
 
 export default rootReducer ;
