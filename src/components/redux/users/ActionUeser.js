@@ -27,7 +27,6 @@ export const fetchUser =()=>{
 	 axios.get('https://jsonplaceholder.typicode.com/users')
 		.then(res=>{
 			const users = res.data ;
-			console.log(res)
 			dispatch(fetchUserSuccess(users))
 
 		})
